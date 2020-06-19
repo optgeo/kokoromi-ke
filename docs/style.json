@@ -6004,7 +6004,7 @@
       ],
       "id": "pg-building",
       "paint": {
-        "fill-color": [
+        "fill-extrusion-color": [
           "match",
           [
             "get",
@@ -6029,11 +6029,12 @@
             215,
             215
           ]
-        ]
+        ],
+        "fill-extrusion-height": 10
       },
       "source": "v",
       "source-layer": "building",
-      "type": "fill"
+      "type": "fill-extrusion"
     },
     {
       "filter": [
